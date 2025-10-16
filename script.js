@@ -13,7 +13,7 @@ function AgregarTarea(){
     //capturamos el valor del input
     let valorInput=input.value;
 
-    //creamos un elemento li
+    //creamos un elemento li con nombre listaTareas
     let ul=document.querySelector("#listaTareas");
 
     //creamos un elemento li
