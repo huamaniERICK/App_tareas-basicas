@@ -2,7 +2,7 @@ function mostrarMensaje(){
     console.log("Holaaaa como estas");
 }
 
-function capturaTexto(){
+function AgregarTarea(){
     //capturamos el elemento input
     let input=document.querySelector("#nuevaTarea");
     if (input.value===""){
@@ -31,8 +31,9 @@ function capturaTexto(){
     }
     // le agrego como hijo el li al elemento padre ul
     ul.appendChild(li);
-    
 
-    document.querySelector("#nuevaTarea");
-    input.value="";
+    //esta linea de codigo limpia el input
+    document.querySelector("#nuevaTarea").value="",
+    //esta linea de codigo pone el foco en el input, lo mantiene activo para seguir escribiendo
+    input.focus()
 }
